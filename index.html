@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketplace Genity</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="logo">Genity Market</div>
+    <input 
+      type="text" 
+      id="searchInput" 
+      class="search-input" 
+      placeholder="Search" 
+    />
+    <select id="categoryFilter" class="category-select">
+      <option value="all">Categories</option>
+      <option value="apk">APK Premium</option>
+      <option value="sosmed">Kebutuhan Sosmed</option>
+      <option value="jasa">Layanan Jasa</option>
+    </select>
+  </nav>
+
+  <!-- BANNER -->
+  <section class="banner">
+    <img src="img/poster1.png" alt="Promo Genity" />
+  </section>
+
+  <!-- DESKRIPSI MARKETPLACE -->
+  <section class="about-genity">
+    <h2>Platform e-commerce dari Genity Entertainment</h2>
+    <p>
+      Temukan berbagai produk dan layanan kreatif dari banyak toko dalam satu tempat 
+      yang praktis dan terpercaya. Cocok buat kamu yang ingin cari atau tawarkan hal unik dengan mudah.
+    </p>
+  </section>
+
+  <!-- LIST TOKO -->
+  <main>
+    <h2>Nikmati belanja dari toko favoritmu di Genity Market</h2>
+    <div class="store-grid" id="storeList"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-contact">
+      <p>Hubungi Admin:</p>
+      <div class="contact-item">
+        <img src="img/email.png" alt="Email Icon" />
+        <a href="mailto:admin@genity.my.id">Email Official</a>
+      </div>
+      <div class="contact-item">
+        <img src="img/wa.jpg" alt="WhatsApp Icon" />
+        <a href="https://wa.me/6281332672740" target="_blank">Admin Official</a>
+      </div>
+    </div>
+    <div class="footer-credit">
+      by 
+      <a 
+        href="https://www.genityent.biz.id" 
+        target="_blank" 
+        style="color: #ff0202; text-decoration: none;"
+      >
+        GENITY ENTERTAINMENT
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
