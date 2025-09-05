@@ -2,7 +2,7 @@
 const stores = [
   {
     name: "Renchi Shop",
-    description: "Apk premium, kebutuhan sosmed & jasa tugas",
+    description: "Pembuatan Website Sederhana, Joki Tugas, RekBer, Apk Premium, Kebutuhan Sosmed",
     image: "img/renchi.jpg",
     category: ["apk", "sosmed", "jasa"],
     verified: true,
@@ -15,7 +15,7 @@ const stores = [
     image: "img/merch.jpg", // Tambahin biar konsisten, bisa ganti sesuai real path
     category: "tech",
     verified: false,
-    page: "eror.html",
+    page: "maintenance.html",
   },
 ];
 
